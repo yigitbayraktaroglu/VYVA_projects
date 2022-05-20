@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="root" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetaslaks.UyeOl">
+   <children>
+      <TextField fx:id="isimField" layoutX="259.0" layoutY="70.0" />
+      <TextField fx:id="soyisimField" layoutX="259.0" layoutY="109.0" />
+      <TextField fx:id="tcField" layoutX="259.0" layoutY="145.0" />
+      <TextField fx:id="telField" layoutX="259.0" layoutY="180.0" />
+      <TextField fx:id="sifreField" layoutX="259.0" layoutY="217.0" />
+      <Button fx:id="button1" layoutX="357.0" layoutY="260.0" mnemonicParsing="false" onAction="#Button" text="Üye ol" />
+      <Label layoutX="210.0" layoutY="74.0" text="İsim" />
+      <Label layoutX="200.0" layoutY="113.0" text="Soyisim" />
+      <Label layoutX="205.0" layoutY="149.0" text="Tc No" />
+      <Label layoutX="191.0" layoutY="184.0" text="Telefon No" />
+      <Label layoutX="209.0" layoutY="221.0" text="Sifre" />
+      <Label fx:id="label" layoutX="279.0" layoutY="264.0" />
+      <Button fx:id="button11" layoutX="343.0" layoutY="305.0" mnemonicParsing="false" onAction="#Donus" text="Geri Dön" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="423.0" layoutX="-9.0" layoutY="-4.0" stroke="BLACK" strokeType="INSIDE" width="179.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="435.0" layoutX="421.0" layoutY="-14.0" stroke="BLACK" strokeType="INSIDE" width="179.0" />
+   </children>
+</AnchorPane>
